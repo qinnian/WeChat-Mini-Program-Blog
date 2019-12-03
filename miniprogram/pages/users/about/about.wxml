@@ -1,0 +1,47 @@
+<view class='margin-sm bg-white radius padding'>
+
+  <view class="cu-bar bg-white">
+     <view class="action">
+       <text class="cuIcon-titles text-yellow"></text>
+       <text class="text-lg text-bold">项目前言</text>
+     </view>
+  </view>
+  <view class='text-grey text-lg'>本程序基于云开发，免费搭建</view>
+
+  <view class="cu-bar bg-white">
+     <view class="action">
+       <text class="cuIcon-titles text-yellow"></text>
+       <text class="text-lg text-bold">项目开源</text>
+      </view>
+  </view>
+  <view class='text-grey text-lg'>为感谢开源，已将代码上传Github</view>
+  <view class='text-grey text-lg  margin-top-xs' bindtap='copy' data-copy='https://github.com/qinnian/WeChat-Mini-Program-Blog'>地址：
+     <text class='text-blue underline text-sub'>https://github.com/qinnian/</text>
+  </view>
+
+
+  <view class="cu-bar bg-white">
+    <view class="action">
+      <text class="cuIcon-titles text-yellow"></text>
+     <text class="text-lg text-bold">联系作者</text>
+   </view>
+  </view>
+
+  <view class='text-grey text-lg'>谈谈需求？谈谈 Bug ？</view>
+  <view class='text-grey text-lg  margin-top-xs'  bindtap='copy' data-copy='钦念博客'>公众号：
+      <text class='text-blue underline text-sub'>钦念博客</text>
+  </view>
+    <view class='text-grey text-lg  margin-top-xs'  bindtap='copy' data-copy='https://qinnian.xyz/'>网站：
+      <text class='text-blue underline text-sub'>https://qinnian.xyz/</text>
+  </view>
+  <view class='text-grey text-lg  margin-top-xs'  bindtap='copy' data-copy='3582807388'>QQ：
+      <text class='text-blue underline text-sub'>3582807388</text>
+  </view>
+  <view class='text-grey text-lg  margin-top-xs'  bindtap='copy' data-copy='LXW5211314666666'>微信：
+      <text class='text-blue underline text-sub'>LXW5211314666666</text>
+  </view>
+  <view class='text-grey text-lg  margin-top-xs'  bindtap='copy' data-copy='liuxinwei1999@yeah.net'>邮箱：
+      <text class='text-blue underline text-sub'>liuxinwei1999@yeah.net</text>
+  </view>
+
+</view>

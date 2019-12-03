@@ -1,0 +1,24 @@
+
+<view class="cu-timeline">
+
+  <view class="cu-item text-yellow">
+    <view class="bg-yellow content shadow">
+      <view class="cu-capsule radius">
+        <view class="cu-tag bg-white text-yellow">v1.0.1</view>
+        <view class="cu-tag line-white">2019/12/03</view>
+      </view>
+      <view class="margin-top-sm text-content">修改一些Bug</view>
+    </view>
+  </view>
+
+    <view class="cu-item text-yellow">
+    <view class="bg-yellow content shadow">
+      <view class="cu-capsule radius">
+        <view class="cu-tag bg-white text-yellow">v1.0.0</view>
+        <view class="cu-tag line-white">2019/11/24</view>
+      </view>
+      <view class="margin-top-sm text-content">1.0 新版本上线</view>
+    </view>
+  </view>
+
+</view>

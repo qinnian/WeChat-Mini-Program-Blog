@@ -1,0 +1,63 @@
+<view class="UCenter-bg">
+  <view class='avatar'><open-data type="userAvatarUrl"></open-data></view>
+  <view class="margin-top-sm">
+    <open-data type="userNickName"></open-data>
+  </view>
+  <image src="https://ae01.alicdn.com/kf/Hc99872404af54b92a4247482346c4ea9J.jpg" mode="scaleToFill" class="gif-wave"></image>
+</view>
+  <view class="padding bg-white shadow-warp"></view>
+
+<view class="cu-list menu  sm-border card-menu margin-top shadow-lg">
+
+  <view class="cu-item arrow" bindtap='go' data-to='/pages/users/comments/comments'>
+    <view class="content">
+      <text class="cuIcon-comment text-blue"></text>
+      <text class="text-grey">评论内容</text>
+    </view>
+  </view>
+
+  <view class="cu-item arrow" bindtap='likeImg'>
+    <view class="content">
+      <text class="cuIcon-evaluate text-olive"></text>
+      <text class="text-grey">赞赏钦念</text>
+    </view>
+  </view>
+
+    <view class="cu-item arrow">
+      <button class="cu-btn content" open-type="contact">
+        <text class="cuIcon-friendfamous text-green"></text>
+        <text class="text-grey">联系钦念</text>
+      </button>
+    </view>
+
+  <view class="cu-item arrow">
+    <button class="cu-btn content" open-type="feedback">
+      <text class="cuIcon-question text-green"></text>
+      <text class="text-grey">问题反馈</text>
+    </button>
+  </view>
+
+  <view class="cu-item arrow" bindtap='go' data-to='/pages/users/about/about'>
+    <view class="content">
+        <text class="cuIcon-favor text-red"></text>
+        <text class="text-grey">获取开源</text>
+    </view>
+  </view>
+
+ <view class="cu-item arrow" bindtap='go' data-to='/pages/users/updated/updated'>
+    <view class="content">
+        <text class="cuIcon-squarecheck text-cyan"></text>
+        <text class="text-grey">开发日志</text>
+    </view>
+  </view>
+
+</view>
+
+<view class="cu-list menu sm-border card-menu margin-top  shadow shadow-lg" wx:if="{{userInfo.admin}}">
+  <view class="cu-item arrow" bindtap='go' data-to='/pages/admin/home/home'>
+    <view class="content">
+       <text class="cuIcon-home text-orange"></text>
+       <text class="text-grey">后台管理</text>
+    </view>
+  </view>
+</view>
