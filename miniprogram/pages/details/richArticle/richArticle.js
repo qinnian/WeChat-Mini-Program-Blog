@@ -6,7 +6,6 @@ const config = require("../../../config.js");
 let interstitialAd = null;
 Page({
   data: {
-    BannerAd: config.data.BannerAd,
     details: {
       openView: true,
       painting: {},

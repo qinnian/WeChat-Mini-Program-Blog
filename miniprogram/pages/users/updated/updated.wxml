@@ -5,9 +5,9 @@
     <view class="bg-yellow content shadow">
       <view class="cu-capsule radius">
         <view class="cu-tag bg-white text-yellow">v1.0.1</view>
-        <view class="cu-tag line-white">2019/12/03</view>
+        <view class="cu-tag line-white">2019/12/04</view>
       </view>
-      <view class="margin-top-sm text-content">修改一些Bug</view>
+      <view class="margin-top-sm text-content">修改一些Bug,目前后台管理仍然存在问题待解决</view>
     </view>
   </view>
 

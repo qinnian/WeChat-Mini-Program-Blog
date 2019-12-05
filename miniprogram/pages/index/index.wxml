@@ -69,32 +69,7 @@
                 <view class="flex-treble  justify-end padding-sm flex align-center text-gray text-sm">{{item.updatedDate}}</view>
             </view>
       </view>
-
-
-       <!--微信文章类-->
-      <view wx:elif="{{item.type=='wxArticle'}}" bindtap='details' data-details='{{item}}'>
-             <view class='flex'>
-                <view class="flex-twice" style='width:{{2*img3_width}}px;height:{{img3_height}}px;'>
-                    <!--标题内容-->
-                    <view class='text-title margin-left margin-right margin-top margin-bottom-xs' >{{item.title}}</view>
-                <view class='text-des text-grey margin-left margin-right margin-bottom-xs' bindtap='details' data-details='{{item}}'>{{item.des?item.des:'点我可查看详情哟~~'}}</view>  
-                </view>
-                <view class="flex-sub" style='width:{{img3_width}}px;'>
-                   <view class='margin'>
-                    <image lazy-load src="{{item.cover}}" style='width:{{img3_width-20}}px;height:{{img3_height-12.36}}px;border-radius:5px;'></image>
-                    </view>
-                </view>
-             </view>
-            <!--信息条-->
-            <view class="flex p-xs mb-sm" >
-                <view class="flex-sub justify-center flex align-center">
-                    <view class="cu-avatar round sm" style="background-image:url({{item.origin.avatar}});"></view>
-                </view>
-                <view class="flex-twice  justify-start flex align-center text-gray text-sm text-cut">{{item.origin.name}}</view>
-                <view class="flex-treble  justify-end padding-sm flex align-center text-gray text-sm">{{item.updatedDate}}</view>
-            </view>
-      </view>
-
+      
 <!--富文本文章类-->
       <view wx:elif="{{item.type=='richArticle'}}" bindtap='details' data-details='{{item}}'>
              <view class='flex'>
@@ -118,7 +93,7 @@
                 <view class="flex-treble  justify-end padding-sm flex align-center text-gray text-sm">{{item.updatedDate}}</view>
             </view>
       </view>
-      <!--视频类-->
+<!--视频类-->
       <view wx:elif="{{item.type=='video'}}">
       <!--标题-->
          <view class='text-sm text-cut margin-sm' bindtap='details' data-details='{{item}}'>{{item.title}}</view>

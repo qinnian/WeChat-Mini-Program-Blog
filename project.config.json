@@ -12,7 +12,7 @@
 		"checkInvalidKey": true
 	},
 	"appid": "wx3c3460024dce32ba",
-	"projectname": "%E5%B0%8F%E7%A8%8B%E5%BA%8F",
+	"projectname": "%E5%B0%8F%E7%A8%8B%E5%BA%8F%E5%8D%9A%E5%AE%A2",
 	"libVersion": "2.7.2",
 	"simulatorType": "wechat",
 	"simulatorPluginLibVersion": {},
@@ -40,13 +40,6 @@
 		"miniprogram": {
 			"current": -1,
 			"list": [
-				{
-					"id": 3,
-					"name": "【后台】首页",
-					"pathName": "pages/admin/home/home",
-					"query": "",
-					"scene": null
-				},
 				{
 					"id": -1,
 					"name": "图片详情",
@@ -105,13 +98,6 @@
 				},
 				{
 					"id": -1,
-					"name": "【后台】新增微信文章",
-					"pathName": "pages/admin/add/wxArticle/wxArticle",
-					"query": "",
-					"scene": null
-				},
-				{
-					"id": -1,
 					"name": "【后台】新增富文本",
 					"pathName": "pages/admin/add/richArticle/richArticle",
 					"query": "",
@@ -129,20 +115,6 @@
 					"name": "【后台】人员管理",
 					"pathName": "pages/admin/people/people",
 					"query": "",
-					"scene": null
-				},
-				{
-					"id": -1,
-					"name": "【后台】留言管理",
-					"pathName": "pages/admin/message/message",
-					"query": "",
-					"scene": null
-				},
-				{
-					"id": -1,
-					"name": "公众号文章",
-					"pathName": "pages/details/wxArticle/wxArticle",
-					"query": "scene=f1006ad85d20100201c030290acee5b9",
 					"scene": null
 				},
 				{
@@ -168,13 +140,6 @@
 				},
 				{
 					"id": -1,
-					"name": "【后台】关联关联",
-					"pathName": "pages/admin/gzh/gzh",
-					"query": "",
-					"scene": null
-				},
-				{
-					"id": -1,
 					"name": "【分类】列表",
 					"pathName": "pages/kind/list/list",
 					"query": "title=小程序",
@@ -188,16 +153,9 @@
 					"scene": null
 				},
 				{
-					"id": -1,
-					"name": "关于本程序",
+					"id": 16,
+					"name": "关于我",
 					"pathName": "pages/users/about/about",
-					"query": "",
-					"scene": null
-				},
-				{
-					"id": -1,
-					"name": "【后台】内容管理",
-					"pathName": "pages/admin/contents/contents",
 					"query": "",
 					"scene": null
 				},

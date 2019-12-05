@@ -10,20 +10,15 @@
 
     "pages/details/photo/photo",
     "pages/details/video/video",
-    "pages/details/wxArticle/wxArticle",
     "pages/details/richArticle/richArticle",
 
     "pages/users/about/about",
     "pages/users/comments/comments",
     "pages/users/updated/updated",
 
-    "pages/admin/people/people",
     "pages/admin/home/home",
-    "pages/admin/gzh/gzh",
     "pages/admin/comments/comments",
-    "pages/admin/contents/contents",
     "pages/admin/notice/notice",
-    "pages/admin/add/wxArticle/wxArticle",
     "pages/admin/add/richArticle/richArticle",
     "pages/admin/add/video/video",
     "pages/admin/add/photo/photo",

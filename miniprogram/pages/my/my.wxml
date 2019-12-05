@@ -9,24 +9,17 @@
 
 <view class="cu-list menu  sm-border card-menu margin-top shadow-lg">
 
-  <view class="cu-item arrow" bindtap='go' data-to='/pages/users/comments/comments'>
-    <view class="content">
-      <text class="cuIcon-comment text-blue"></text>
-      <text class="text-grey">评论内容</text>
-    </view>
-  </view>
-
   <view class="cu-item arrow" bindtap='likeImg'>
     <view class="content">
       <text class="cuIcon-evaluate text-olive"></text>
-      <text class="text-grey">赞赏钦念</text>
+      <text class="text-grey">赞赏作者</text>
     </view>
   </view>
 
     <view class="cu-item arrow">
       <button class="cu-btn content" open-type="contact">
         <text class="cuIcon-friendfamous text-green"></text>
-        <text class="text-grey">联系钦念</text>
+        <text class="text-grey">联系作者</text>
       </button>
     </view>
 
@@ -40,7 +33,7 @@
   <view class="cu-item arrow" bindtap='go' data-to='/pages/users/about/about'>
     <view class="content">
         <text class="cuIcon-favor text-red"></text>
-        <text class="text-grey">获取开源</text>
+        <text class="text-grey">关于作者</text>
     </view>
   </view>
 

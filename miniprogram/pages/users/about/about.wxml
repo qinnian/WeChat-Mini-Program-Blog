@@ -3,45 +3,45 @@
   <view class="cu-bar bg-white">
      <view class="action">
        <text class="cuIcon-titles text-yellow"></text>
-       <text class="text-lg text-bold">项目前言</text>
+       <text class="text-lg text-bold">写在前面</text>
      </view>
   </view>
-  <view class='text-grey text-lg'>本程序基于云开发，免费搭建</view>
+   <view class='text-grey text-lg'>世界在发展</view>
+  <view class='text-grey text-lg'>软件行业日新月异</view>
+  <view class='text-grey text-lg'>我们从未停止学习的脚步</view>
 
   <view class="cu-bar bg-white">
      <view class="action">
        <text class="cuIcon-titles text-yellow"></text>
-       <text class="text-lg text-bold">项目开源</text>
+       <text class="text-lg text-bold">个人简介</text>
       </view>
   </view>
-  <view class='text-grey text-lg'>为感谢开源，已将代码上传Github</view>
-  <view class='text-grey text-lg  margin-top-xs' bindtap='copy' data-copy='https://github.com/qinnian/WeChat-Mini-Program-Blog'>地址：
-     <text class='text-blue underline text-sub'>https://github.com/qinnian/</text>
-  </view>
-
-
-  <view class="cu-bar bg-white">
-    <view class="action">
-      <text class="cuIcon-titles text-yellow"></text>
-     <text class="text-lg text-bold">联系作者</text>
-   </view>
-  </view>
-
-  <view class='text-grey text-lg'>谈谈需求？谈谈 Bug ？</view>
-  <view class='text-grey text-lg  margin-top-xs'  bindtap='copy' data-copy='钦念博客'>公众号：
-      <text class='text-blue underline text-sub'>钦念博客</text>
-  </view>
-    <view class='text-grey text-lg  margin-top-xs'  bindtap='copy' data-copy='https://qinnian.xyz/'>网站：
-      <text class='text-blue underline text-sub'>https://qinnian.xyz/</text>
-  </view>
-  <view class='text-grey text-lg  margin-top-xs'  bindtap='copy' data-copy='3582807388'>QQ：
+  <view class='text-grey text-lg'>石家庄铁道大学   |  数字媒体技术</view>
+  <view class='text-grey text-lg'>钦念 / 男 / 1999-10</view>
+   <view class='text-grey text-lg  margin-top-xs'  bindtap='copy' data-copy='3582807388'>QQ：
       <text class='text-blue underline text-sub'>3582807388</text>
   </view>
-  <view class='text-grey text-lg  margin-top-xs'  bindtap='copy' data-copy='LXW5211314666666'>微信：
+      <view class='text-grey text-lg  margin-top-xs'  bindtap='copy' data-copy='https://qinnian.xyz/'>Mysite:
+      <text class='text-blue underline text-sub'>https://qinnian.xyz/</text>
+  </view>
+ <view class='text-grey text-lg  margin-top-xs'  bindtap='copy' data-copy='liuxinwei1999@yeah.net'>E-mail:
+      <text class='text-blue underline text-sub'>liuxinwei1999@yeah.net</text>
+  </view>
+  <view class='text-grey text-lg  margin-top-xs'  bindtap='copy' data-copy='LXW5211314666666'>WeChat：
       <text class='text-blue underline text-sub'>LXW5211314666666</text>
   </view>
-  <view class='text-grey text-lg  margin-top-xs'  bindtap='copy' data-copy='liuxinwei1999@yeah.net'>邮箱：
-      <text class='text-blue underline text-sub'>liuxinwei1999@yeah.net</text>
+
+
+<view class="cu-bar bg-white">
+     <view class="action">
+       <text class="cuIcon-titles text-yellow"></text>
+       <text class="text-lg text-bold">写在最后</text>
+     </view>
+  </view>
+  <view class='text-grey text-lg'>本程序基于云开发，免费搭建</view>
+   <view class='text-grey text-lg'>为感谢开源，已将代码上传Github</view>
+     <view class='text-grey text-lg  margin-top-xs' bindtap='copy' data-copy='https://github.com/qinnian/WeChat-Mini-Program-Blog'>地址：
+     <text class='text-blue underline text-sub'>点击复制</text>
   </view>
 
 </view>

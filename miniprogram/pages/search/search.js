@@ -15,7 +15,8 @@ Page({
     this.interstitialAd();
   },
   //插屏广告
-  interstitialAd: function () {
+   /*
+ interstitialAd: function () {
     if (wx.createInterstitialAd) {
       interstitialAd = wx.createInterstitialAd({
         adUnitId: config.data.InterstitialAd
@@ -30,6 +31,7 @@ Page({
   keyInput(e){
     this.data.key= e.detail.value;
   },
+  */
   //获取列表数据
   list() {
     var that = this;

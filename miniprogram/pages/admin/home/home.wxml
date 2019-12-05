@@ -8,26 +8,10 @@
       </view>
     </view>
 
-
-    <view class="cu-item arrow" bindtap="go" data-to="contents">
-      <view class="content">
-       <text class="cuIcon-form text-olive"></text>
-        <text class="text-grey">内容管理</text>
-      </view>
-    </view>
-
     <view class="cu-item arrow" bindtap="go" data-to="comments">
       <view class="content">
        <text class="cuIcon-mark text-cyan"></text>
         <text class="text-grey">评论管理</text>
-      </view>
-    </view>
-
-
-<view class="cu-item arrow" bindtap="go" data-to="message">
-      <view class="content">
-      <text class="cuIcon-comment text-blue"></text>
-        <text class="text-grey">留言管理</text>
       </view>
     </view>
 
@@ -38,30 +22,13 @@
       </view>
     </view>
 
-<view class="cu-item arrow" bindtap="go" data-to="people">
-      <view class="content">
-        <text class="cuIcon-peoplelist text-orange"></text>
-        <text class="text-grey">人员管理</text>
-      </view>
-    </view>
-
-
 <view class="cu-item arrow" bindtap="go" data-to="notice">
       <view class="content">
         <text class="cuIcon-notification text-red"></text>
         <text class="text-grey">通知管理</text>
       </view>
     </view>
-
-<view class="cu-item arrow" bindtap="go" data-to="gzh">
-      <view class="content">
-        <text class="cuIcon-share text-green"></text>
-        <text class="text-grey">关联管理</text>
-      </view>
-    </view>
-
-   
-
+    
  </view>
 
 
@@ -84,21 +51,12 @@
       <text>视频</text>
     </view>
 
-    <view class="cu-item" bindtap='add' data-to="wxArticle">
-      <view class="cuIcon-formfill text-blue">
-      </view>
-      <text>微信文章</text>
-    </view>
-
     <view class="cu-item" bindtap='add' data-to="richArticle">
       <view class="cuIcon-edit text-green">
       </view>
       <text>富文本</text>
     </view>
   </view>
-
-
-
 
   </view>
 </view>

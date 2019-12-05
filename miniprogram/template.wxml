@@ -3,7 +3,7 @@
   <view class="basis-xs flex justify-center align-center">
       <image src='https://ae01.alicdn.com/kf/H3b1056e8505c4d4fac0a483c6c108919z.png' mode='widthFix' style='width:50rpx' />
   </view>
-  <view class="basis-lg text-df padding-sm text-black">觉得钦念博客怎么样？快点击分享给你的好友吧!</view>
+  <view class="basis-lg text-df padding-sm text-black">觉得钦念博客怎么样？快点击分享给你的好友吧!嘻嘻嘻！</view>
   <view class="basis-xs flex justify-center align-center ">
     <button class="cu-btn round bg-yellow" open-type='share'>分享</button>
   </view>
