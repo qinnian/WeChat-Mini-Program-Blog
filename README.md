@@ -35,17 +35,19 @@
 
 - 编程语言/开发平台
 
-  - [小程序开发教程](https://developers.weixin.qq.com/miniprogram/dev/framework/)
-
   - [微信开发者工具](https://developers.weixin.qq.com/miniprogram/dev/devtools/download.html) 
 
   - [Visual Studio Code](https://code.visualstudio.com/) 
 
     跨平台源代码编辑器，拥有 [minapp-vscode](https://github.com/wx-minapp/minapp-vscode) 插件
 
+  - [芝麻小客服](https://login.xiaokefu.com.cn//xkf/xkfLogin?tab=scan&cookie=1&usertype=12&refresh=http://xiaokefu.com.cn)
+
+    专业的小程序和公众号智能客服系统
+
 - 参考资料
 
-  - [小程序设计指南](https://developers.weixin.qq.com/miniprogram/design/)
+  - [微信官方文档](https://developers.weixin.qq.com/miniprogram/dev/framework/)
 
 - 开源库
 
@@ -62,6 +64,8 @@
   - [配色网](http://www.peise.net/palette/)
 
   - [Iconfont](https://www.iconfont.cn/) 阿里巴巴矢量图标库
+
+  - [小程序设计指南](https://developers.weixin.qq.com/miniprogram/design/)
 
 
 - 小程序后端
