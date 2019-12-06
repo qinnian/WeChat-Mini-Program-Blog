@@ -1,4 +1,4 @@
-<!--显示作者-->
+<!--显示-->
   <view class='html' wx:if="{{details.openView}}">
     <view class='text-black text-xl'>{{details.title}}</view>
     <view class='text-grey padding text-sub'>来源：{{details.origin.name}}</view>
@@ -6,7 +6,7 @@
   </view>
 <!--显示文章-->
   <view class='html' wx:if="{{!details.openView}}">
-    <view class='text-center' >该文章已关闭显示</view>
+    <view class='text-center' >该文章正在显示中</view>
   </view>
 <!--随机推荐-->
   <view class="cu-list menu">

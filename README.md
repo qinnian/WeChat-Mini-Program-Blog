@@ -43,9 +43,11 @@
 
     跨平台源代码编辑器，拥有 [minapp-vscode](https://github.com/wx-minapp/minapp-vscode) 插件
 
-- 小程序前端
+- 参考资料
 
   - [小程序设计指南](https://developers.weixin.qq.com/miniprogram/design/)
+
+- 开源库
 
   - [ColorUI](https://github.com/weilanwl/ColorUI)
 
@@ -55,11 +57,12 @@
 
     小程序富文本插件，支持丰富的标签，无层数限制，容错性强且轻量化，支持在各类框架中使用
 
+- 页面设计
+
   - [配色网](http://www.peise.net/palette/)
 
   - [Iconfont](https://www.iconfont.cn/) 阿里巴巴矢量图标库
 
-  - [ProcessOn](https://www.processon.com/)
 
 - 小程序后端
 
@@ -79,5 +82,4 @@
   
     由原生微信服务集成，基于云函数免鉴权使用小程序开放接口的能力，包括服务端调用、获取开放数据等能力
 
-## 五、总体设计
 

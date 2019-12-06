@@ -1,6 +1,6 @@
 .UCenter-bg {
   background-image: url(https://tvax1.sinaimg.cn/large/005BYqpggy1g4lmcxdrybj30go088gnc.jpg);
-  background: #f8d15d;
+  background: #e7cb2a;
   background-size: cover;
   height: 300rpx;
   display: flex;

@@ -4,10 +4,20 @@
   <view class="cu-item text-yellow">
     <view class="bg-yellow content shadow">
       <view class="cu-capsule radius">
+        <view class="cu-tag bg-white text-yellow">v1.0.2</view>
+        <view class="cu-tag line-white">2019/12/06</view>
+      </view>
+      <view class="margin-top-sm text-content">解决了点击视频、图片不显示详情页。目前后台管理部分审核留言和回复留言存在Bug待解决。</view>
+    </view>
+  </view>
+
+  <view class="cu-item text-yellow">
+    <view class="bg-yellow content shadow">
+      <view class="cu-capsule radius">
         <view class="cu-tag bg-white text-yellow">v1.0.1</view>
         <view class="cu-tag line-white">2019/12/04</view>
       </view>
-      <view class="margin-top-sm text-content">修改一些Bug,目前后台管理仍然存在问题待解决</view>
+      <view class="margin-top-sm text-content">修改一些Bug</view>
     </view>
   </view>
 
@@ -17,7 +27,7 @@
         <view class="cu-tag bg-white text-yellow">v1.0.0</view>
         <view class="cu-tag line-white">2019/11/24</view>
       </view>
-      <view class="margin-top-sm text-content">1.0 新版本上线</view>
+      <view class="margin-top-sm text-content">1.0.0 新版本上线</view>
     </view>
   </view>
 
